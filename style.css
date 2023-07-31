@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    padding: 1%;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-content{
+    margin: 1%;
+    background-color: gold;
+}
+
+.header-options{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.4rem;
+    border: 0.1rem solid blue;
+}
+
+.description{
+    background-color: red;
+    padding: 2%;
+    border-right: 0.1rem solid blue;
+}
+
+.specifications{
+    background-color: red;
+    padding: 2%;
+    border-right: 0.1rem solid blue;
+}
+
+.reviews{
+    background-color: red;
+    padding: 2%;
+    border-right: 0.1rem solid blue;
+}
+
+.boxes{
+    padding: 2%;
+}
+
+.box-2{
+    padding-top: 4%;
+}
+
+.box-3{
+    padding-top: 4%;
+}
+
+.titles{
+    padding-bottom: 2.5%;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.info{
+    font-size: 1rem;
+}
