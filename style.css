@@ -8,42 +8,53 @@
 
 body{
     padding: 1%;
-    background-color: green;
+    background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .all-content{
     margin: 1%;
-    background-color: gold;
+    /* background-color: white; */
+    border-radius: 0.5rem 0 0.5rem 0.5rem;
 }
 
 .header-options{
     display: flex;
     justify-content: flex-start;
     font-size: 1.4rem;
-    border: 0.1rem solid blue;
+    /* background-color: lightgray; */
 }
 
 .description{
-    background-color: red;
+    background-color: white;
     padding: 2%;
-    border-right: 0.1rem solid blue;
+    border-radius: 0.5rem 0 0 0;
+    border-right: 0.1rem solid silver;
+    border-bottom: 0.1rem solid silver;
 }
 
 .specifications{
-    background-color: red;
+    background-color: white;
     padding: 2%;
-    border-right: 0.1rem solid blue;
+    border-right: 0.1rem solid silver;
+    border-bottom: 0.1rem solid silver;
 }
 
 .reviews{
-    background-color: red;
+    background-color: white;
     padding: 2%;
-    border-right: 0.1rem solid blue;
+    border-radius: 0 0.5rem 0 0;
+    border-bottom: 0.1rem solid silver;
 }
 
 .boxes{
     padding: 2%;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    background-color: white;
+}
+
+.box-1{
+    padding-top: 2%;
 }
 
 .box-2{
@@ -52,6 +63,7 @@ body{
 
 .box-3{
     padding-top: 4%;
+    padding-bottom: 2%;
 }
 
 .titles{
