@@ -1,68 +1,43 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: content-box;
-    list-style: none;
-    text-decoration: none;
-}
-
-body{
-    padding: 1%;
-    background-color: lightgray;
+body {
+    background-color: silver;
+    padding: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.tab-components{
-    margin: 1%;
-    border-radius: 0.5rem 0 0.5rem 0.5rem;
-}
-
-.tabs-button-wrapper{
+  }
+  
+  .tabs-component .tabs-button-wrapper {
     display: flex;
-    justify-content: flex-start;
-    font-size: 1.4rem;
+  }
+  
+  .tabs-component .tabs-button-wrapper .tab-button {
+    background-color: white;
+    padding: 1rem;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
     cursor: pointer;
-}
-
-#tab-01{
+  }
+  
+  .tabs-component .tabs-button-wrapper .tab-button.active {
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 2px 0 -1px white;
+  }
+  
+  .tabs-component .tabs-button-wrapper .tab-button:first-child {
+    border-radius: 8px 0 0 0;
+  }
+  
+  .tabs-component .tabs-button-wrapper .tab-button:last-child {
+    border-radius: 0 8px 0 0;
+  }
+  
+  .tabs-content-wrapper {
     background-color: white;
-    padding: 2%;
-    border-radius: 0.5rem 0 0 0;
-    border-right: 0.1rem solid silver;
-    border-bottom: 0.1rem solid silver;
-}
-
-#tab-02{
-    background-color: white;
-    padding: 2%;
-    border-right: 0.1rem solid silver;
-    border-bottom: 0.1rem solid silver;
-}
-
-#tab-03{
-    background-color: white;
-    padding: 2%;
-    border-radius: 0 0.5rem 0 0;
-    border-bottom: 0.1rem solid silver;
-}
-
-.tabs-content-wrapper{
-    padding: 2%;
-    border-radius: 0 0.5rem 0.5rem 0.5rem;
-    background-color: white;
-}
-
-h3{
-    padding-bottom: 2.5%;
-    font-size: 1.8rem;
-    font-weight: 300;
-}
-
-.info{
-    font-size: 1rem;
-}
-
-.tabs-content-wrapper .tab-content {
+    padding: 1rem;
+    border-radius: 0 8px 8px 8px;
+    border: 1px solid black;
+  }
+  
+  .tabs-content-wrapper .tab-content {
     margin-bottom: 1rem;
     display: none;
   }
